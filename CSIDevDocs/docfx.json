@@ -1,0 +1,41 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",        
+          "CSIDevDocs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "CSIDevDocs/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {
+      "author": {
+        "Demo/**.md": "bharney-msft",
+        "code-quality/**.md": "adunndevster"
+      }
+    },
+    "template": [],
+    "dest": "CSIDevDocs",
+    "markdownEngineName": "markdig"
+  }
+}

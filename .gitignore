@@ -1,0 +1,12 @@
+log/
+obj/
+_site/
+.optemp/
+_themes*/
+apidocs/
+CustomRules/
+CSIDevDocs/CSIDevDocs
+
+.openpublishing.buildcore.ps1
+.openpublishing.redirection.json
+debug.log

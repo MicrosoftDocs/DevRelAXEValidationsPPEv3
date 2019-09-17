@@ -1,0 +1,37 @@
+---
+title: dotnet command - .NET Core CLI
+description: Learn about the dotnet command (the generic driver for the .NET Core CLI tools) and its usage.  
+author: mairaw
+ms.author: mairaw
+ms.date: 08/14/2017
+ms.topic: article
+ms.prod: .net-core
+ms.technology: dotnet-cli
+---
+# dotnet command
+
+## Name
+
+`dotnet` - General driver for running the command-line commands.
+
+## Synopsis
+
+# [.NET Core 2.x](#tab/netcore2x)
+::: moniker range="product-1.0"
+:: zone render="chromeless"
+Example-1
+::: zone-end
+::: moniker-end
+`dotnet [command] [arguments] [--additional-deps] [--additionalprobingpath] [-d|--diagnostics] [--fx-version] [-h|--help] [--info] [--roll-forward-on-no-candidate-fx] [-v|--verbose] [--version]`
+# [.NET Core 1.x](#tab/netcore1x)
+`dotnet [command] [arguments] [--additionalprobingpath] [-d|--diagnostics] [--fx-version] [-h|--help] [--info] [-v|--verbose] [--version]`
+# [.NET Core 3.x](#tab/netcore3x)
+`dotnet [command] [arguments] [--additional-deps] [--additionalprobingpath] [-d|--diagnostics] [--fx-version] [-h|--help] [--info] [--roll-forward-on-no-candidate-fx] [-v|--verbose] [--version]`
+# [.NET Core 4.x](#tab/netcore4x)
+`dotnet [command] [arguments] [--additionalprobingpath] [-d|--diagnostics] [--fx-version] [-h|--help] [--info] [-v|--verbose] [--version]`
+# [.NET Core 5.x](#tab/netcore5x)
+`dotnet [command] [arguments] [--additional-deps] [--additionalprobingpath] [-d|--diagnostics] [--fx-version] [-h|--help] [--info] [--roll-forward-on-no-candidate-fx] [-v|--verbose] [--version]`
+# [.NET Core 6.x](#tab/netcore6x)
+`dotnet [command] [arguments] [--additionalprobingpath] [-d|--diagnostics] [--fx-version] [-h|--help] [--info] [-v|--verbose] [--version]`
+
+---
