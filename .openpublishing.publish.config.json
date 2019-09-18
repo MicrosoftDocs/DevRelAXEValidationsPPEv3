@@ -1,107 +1,6 @@
-{  
-  "build_entry_point": "op",
-  "docsets_to_publish": [
-    {
-      "docset_name": "CSIDev",
-      "build_source_folder": "CSIDev",
-      "build_output_subfolder": "CSIDev",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
-      "customized_tasks": {
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ],
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ]
-      },
-      "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
-        "Flatten": true,
-        "id": "dotnet-template"
-      },
-      "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
-      ],
-      "DiffFolder": [
-        "dotnet/api"
-      ]
-    },
-    {
-      "docset_name": "CSIDev_Sandbox",
-      "build_source_folder": "CSIDev_Sandbox",
-      "build_output_subfolder": "CSIDev_Sandbox",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "CSIDevDocs",
-      "build_source_folder": "CSIDevDocs",
-      "build_output_subfolder": "CSIDevDocs",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "op",
-      "template_folder": "_themes",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
-      "customized_tasks": {
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ],
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ]
-      },
-      "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
-        "Flatten": true,
-        "id": "dotnet-template"
-      },
-      "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
-      ],
-      "DiffFolder": [
-        "dotnet/api"
-      ],
-      "version": 0
-    }
-  ],
-  "notification_subscribers": [ "v-caxian@microsoft.com" ],
+{
+  "docsets_to_publish": [],
+  "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
@@ -113,43 +12,9 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": {
-    "master": [
-      "Publish",
-      "PDF"
-    ]
-  },
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
-  "targets": {},  
-  "dependent_packages": [
-    {
-      "id": "Microsoft.OpenPublishing.CommonPlugins",
-      "nuget_feed": "https://www.myget.org/F/op/api/v2",
-      "path_to_root": "_dependentPackages/CommonPlugins",
-      "target_framework": "net45",
-      "version": "latest"
-    },
-    {
-      "id": "Microsoft.DocAsCode.ECMA2Yaml",
-      "nuget_feed": "https://www.myget.org/F/op/api/v2",
-      "path_to_root": "_dependentPackages/ECMA2Yaml",
-      "target_framework": "net45",
-      "version": "latest"
-    },
-    {
-      "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
-      "path_to_root": "_dependentPackages/memberpage.plugins",
-      "target_framework": "net45",
-      "version": "latest"
-    }
-  ]
+  "targets": {}
 }
