@@ -1,4 +1,5 @@
 {
+  "build_entry_point": "docs",
   "docsets_to_publish": [
     {
       "docset_name": "DevRelAXEValidations",
@@ -31,5 +32,6 @@
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
-  "targets": {}
+  "targets": {},
+  "need_generate_pdf": false
 }
