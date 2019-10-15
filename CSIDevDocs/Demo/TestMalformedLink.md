@@ -31,15 +31,15 @@ ms.reviewer: martinof
 VS Code Markdown Authoring Extension for OPS is a poc to provide authoring help to writers working in OPS and authoring for docs.microsoft.com. It includes several functions, including applying the default docs template to new Markdown files and generating a GUID, applying common formattidng to strings, inserting links and images, and previewing content using your site's CSS.
 
 GOOD:  
-[Link text should go here](test1.md)
+[Link text should go here](test1.md "alt text")
 
 BAD:  
 [](test1.md)
 
 BAD:  
-[ ](https://microsoft.com)
+[ ](https://microsoft.com "alt-text")
 
 BAD:
-Here is a grand text blurb that contains an [](test1.md) empty link. Can we find the problem in this paragraph?
+Here is a grand text blurb that contains an [](test1.md "alt text") empty link. Can we find the problem in this paragraph?
 
 test
