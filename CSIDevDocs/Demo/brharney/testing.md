@@ -6,8 +6,6 @@ description: Relative Link Testing
 
 Today, fans can test their zombie apocalypse plans as State of Decay 2 from Undead Labs launches worldwide in Xbox Game Pass and exclusively on Xbox One and Windows 10 PC.
 
-State of Decay 2 is the ultimate zombie survival fantasy, where it’s up to you to decide how to survive in an open, post-apocalyptic world. State of Decay 2 takes everything you loved about the first game and greatly expands on it, giving you more unique survivor characters, more backstories and skills for each member, more community and base management options, and bigger maps to survive in. State of Decay 2 also adds one of the most-requested features from the community: cross-platform co-op.
-
 [Link text should go here](database-engine-events.md)
 
 [](https://microsoft.com)
