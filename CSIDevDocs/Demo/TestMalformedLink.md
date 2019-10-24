@@ -41,3 +41,5 @@ BAD:
 
 BAD:
 Here is a grand text blurb that contains an [](test1.md) empty link. Can we find the problem in this paragraph?
+
+test
