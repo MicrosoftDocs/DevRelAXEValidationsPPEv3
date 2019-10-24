@@ -1,1 +1,0 @@
-# Moniker within tabbed content
