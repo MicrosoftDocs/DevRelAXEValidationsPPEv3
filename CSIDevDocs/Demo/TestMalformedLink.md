@@ -42,3 +42,18 @@ BAD:
 BAD:
 Here is a grand text blurb that contains an [](https://microsoft.com) empty link. Can we find the problem in this paragraph?
 
+[Link text should go here](auto-merge.md)
+
+[](https://microsoft.com)
+
+![](media/indianaJones.jpg)
+
+![ ](media/indianaJones.jpg)
+
+<img src="media/indianaJones.jpg" />
+
+<img class="image" src="media/indianaJones.jpg" />
+
+<img alt="" class="image" src="media/indianaJones.jpg" />
+
+<img class="image" alt="Lorem Ipsum" src="media/indianaJones.jpg" />
