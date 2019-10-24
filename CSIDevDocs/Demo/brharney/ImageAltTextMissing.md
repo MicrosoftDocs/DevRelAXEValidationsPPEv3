@@ -1,11 +1,9 @@
 ---
-title: Relative Links
+title: Alt Text Missing
 description: Relative Link Testing
 author: bharney0
 ---
-# Relative
-
-Today, fans can test their zombie apocalypse plans as State of Decay 2 from Undead Labs launches worldwide in Xbox Game Pass and exclusively on Xbox One and Windows 10 PC.
+# Alt Image Text Missing
 
 [Link text should go here](database-engine-events.md)
 
