@@ -1,5 +1,0 @@
----
-layout: LandingPage
----
-
-# LandingPageFilter 
