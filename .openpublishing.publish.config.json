@@ -2,9 +2,9 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "DevRelAXEValidations",
-      "build_source_folder": "CSIDevDocs",
-      "build_output_subfolder": "DevRelAXEValidations",
+      "docset_name": "DevRelAxeValidations",
+      "build_source_folder": "DevRelAxeValidations",
+      "build_output_subfolder": "CSIDevDocs",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
