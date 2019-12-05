@@ -10,6 +10,10 @@ ms.collection:
 # Welcome to the Dev Sandbox
 
 This is a CSharp example.
+:::code source="../code-snippets/class-level.cs" interactive="try-dotnet-class":::
+
+:::code source="../code-snippets/method-level.cs" interactive="try-dotnet-method":::
+
 :::code source="../code-snippets/example.cs" id="Snippet_Table_RowGroups_AddCells" highlight="1-2" interactive="try-dotnet":::
 
 This is a C Plus Plus example.
