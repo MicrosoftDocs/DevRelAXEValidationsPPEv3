@@ -22,4 +22,6 @@ This is a CSharp range example.
 :::code source="../code-snippets/example.cs" range="79-84" highlight="1-2" interactive="try-dotnet":::
 
 Cross-repo test
-:::code source="~/snippets/csharp/tour/classes-and-objects/Expressions.cs" language="cs" range="14-25" :::
+:::code source="~/samples/snippets/csharp/tour/classes-and-objects/Expressions.cs" language="cs" range="14-25" :::
+
+[!code-cs[ca1036-override-methods-on-comparable-types_1](~/samples/snippets/csharp/tour/classes-and-objects/Expressions.cs)]
