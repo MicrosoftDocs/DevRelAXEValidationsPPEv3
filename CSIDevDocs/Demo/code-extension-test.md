@@ -22,4 +22,4 @@ This is a CSharp range example.
 :::code source="../code-snippets/example.cs" range="79-84" highlight="1-2" interactive="try-dotnet":::
 
 Cross-repo test
-:::code language="csharp" source="~/samples/samples/snippets/csharp/tour/classes-and-objects/Expressions.cs" range="4-20,24-29":::
+:::code language="csharp" source="~/samples/snippets/csharp/tour/classes-and-objects/Expressions.cs" range="4-20,24-29":::
