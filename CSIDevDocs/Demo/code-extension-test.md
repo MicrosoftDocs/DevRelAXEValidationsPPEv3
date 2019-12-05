@@ -21,4 +21,4 @@ This is a VB example.
 This is a CSharp range example.
 :::code source="../code-snippets/example.cs" range="79-84" highlight="1-2" interactive="try-dotnet":::
 
-[!code-cs[ca1036-override-methods-on-comparable-types_1](~/samples/snippets/csharp/tour/classes-and-objects/Expressions.cs)]
+[!code-cs[ca1036-override-methods-on-comparable-types_1](~/snippets/csharp/tour/classes-and-objects/Expressions.cs)]
