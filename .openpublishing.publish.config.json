@@ -29,12 +29,9 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "samples",
-      "url": "https://github.com/dotnet/samples",
-      "branch": "master",
-      "branch_mapping": {
-        "live": "live"
-      }
+      "path_to_root": "samples-durable-functions",
+      "url": "https://github.com/Azure/azure-functions-durable-extension",
+      "branch": "master"
     }
   ],
   "branch_target_mapping": {},
