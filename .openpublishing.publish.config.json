@@ -1,20 +1,5 @@
 {
-  "docsets_to_publish": [
-    {
-      "docset_name": "DevRelAxeValidationsPPE",
-      "build_source_folder": "CSIDevDocs",
-      "build_output_subfolder": "DevRelAxeValidationsPPE",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
@@ -31,7 +16,8 @@
     {
       "path_to_root": "samples-durable-functions",
       "url": "https://github.com/Azure/azure-functions-durable-extension",
-      "branch": "master"
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {},
