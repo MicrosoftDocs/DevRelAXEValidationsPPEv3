@@ -12,12 +12,6 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "samples-durable-functions",
-      "url": "https://github.com/Azure/azure-functions-durable-extension",
-      "branch": "master",
-      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {},
