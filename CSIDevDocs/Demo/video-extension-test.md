@@ -10,4 +10,4 @@ ms.collection:
 # Welcome to the Dev Sandbox
 
 Learn video
-:::glorp source=""https://channel9.msdn.com/Shows/XamarinShow/Build-Your-First-Android-App-with-Visual-Studio-2019-and-Xamarin/player?nocookie=true"" title=""Video: Build-Your-First-Android-App-with-Visual-Studio-2019-and-Xamarin"":::
+:::video source="https://channel9.msdn.com/Shows/XamarinShow/Build-Your-First-Android-App-with-Visual-Studio-2019-and-Xamarin/player?nocookie=true" title="Video: Build-Your-First-Android-App-with-Visual-Studio-2019-and-Xamarin":::
