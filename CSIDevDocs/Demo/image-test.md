@@ -17,4 +17,4 @@ ms.collection:
 |Row3     | :::image type="icon" source="media/green-checkmark.png" border="false"::: |         |
 |Row4     | :::image type="icon" source="media/green-checkmark.png" border="false"::: |         |
 
-:::image source="media/indianaJones.jpg" border="false":::
+:::image alt-text="This is nice" source="media/indianaJones.jpg" border="false":::
