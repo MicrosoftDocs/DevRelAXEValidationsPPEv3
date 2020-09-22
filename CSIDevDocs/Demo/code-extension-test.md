@@ -6,6 +6,12 @@ ms.collection:
 - foo
 - bar
 - baz
+- sdsd
+description: 
+ms.topic: 
+title: 
+ms.prod: .net
+ms.technology: csharp-interactive
 ---
 # Welcome to the Dev Sandbox
 
