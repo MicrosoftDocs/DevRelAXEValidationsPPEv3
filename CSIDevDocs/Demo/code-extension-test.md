@@ -2,9 +2,12 @@
 ms.date: 3/28/2017
 ms.author: adunndevster
 ms.collection:
-- foo
-- bar
-- baz
+- asdasdasd
+author: bharney-msft
+description: 
+ms.prod: 
+ms.topic: 
+title: 
 ---
 # Welcome to the Dev Sandbox
 
