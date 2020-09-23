@@ -1,11 +1,15 @@
 ---
 ms.date: 3/28/2017
-author: adunndevster
+author: 
 ms.author: adunndevster
 ms.collection:
 - foo
 - bar
 - baz
+description: 
+ms.service: 
+ms.topic: 
+title: 
 ---
 # Welcome to the Dev Sandbox
 
