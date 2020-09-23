@@ -25,3 +25,5 @@ This is a CSharp range example.
 :::code source="../code-snippets/example.cs" range="79-84" highlight="1-2" interactive="try-dotnet":::
 
 [!code-csharp[Main](~/samples-durable-functions/samples/csx/E2_CopyFileToBlob/run.csx)]
+
+change.
