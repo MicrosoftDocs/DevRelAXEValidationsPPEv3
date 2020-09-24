@@ -5,6 +5,13 @@ ms.collection:
 - foo
 - bar
 - baz
+- hello
+author: lamebrain
+description: asdfasdf
+ms.service: databox
+ms.topic: how-to
+title: this is my title
+ms.subservice: edge-fpga
 ---
 # Welcome to the Dev Sandbox
 
