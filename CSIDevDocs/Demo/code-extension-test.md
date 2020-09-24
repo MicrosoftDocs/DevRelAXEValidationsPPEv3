@@ -1,11 +1,4 @@
----
-ms.date: 3/28/2017
-ms.author: adunndevster
-ms.collection:
-- foo
-- bar
-- baz
----
+
 # Welcome to the Dev Sandbox
 
 This is a CSharp example.
